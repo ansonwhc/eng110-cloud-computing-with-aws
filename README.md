@@ -9,6 +9,7 @@ On-demand availability of easily configurable computer system resources upon use
         - Pay as you go
         - Payments are charged on the space rented
 - Accessibility
+    - Going up in minutes 
     - Accessible anywhere through internet
     - More consistent & stable uptime
 - Flexibility
