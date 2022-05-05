@@ -12,12 +12,12 @@ On-demand availability of easily configurable computer system resources upon use
     - Accessible anywhere through internet
     - More consistent & stable uptime
 - Flexibility
+    - Different operating systems
     - Linux
     - Infrastructure as code
-
 - Stability
-    - Disaster recovery plan
-        
+    - Having multiple data centers
+    - Disaster recovery plan      
 - Security
     - Private
         - Only available to the organisation rented the space
