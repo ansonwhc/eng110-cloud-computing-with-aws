@@ -44,3 +44,8 @@ Amazon Elastic Compute Cloud is a secure and resizable cloud compute service
     - `cd app/app/`
     - `npm start`
     - Should see localhost/posts working 
+
+    mongodb
+    - sudo systemctl start mongod
+    - sudo systemctl enable mongod
+    - sudo systemctl restart mongod (if needed)
