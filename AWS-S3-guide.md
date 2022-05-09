@@ -9,12 +9,16 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 ### S3 setup
 command | function
 --- | ---
+ec2_setup.sh | -
 `sudo apt install python` | install python
-`sudo apt install python3-pip -y` | install python 3.x (specifically), if the previous installs python < 3.x
+`sudo apt install python3-pip -y` | install python pip
 `alias python=python3` | instruct the system to use python 3
 `python --version` | ensure we have python > 3.x
+`python` | start python env
+`exit()` | exit python env
 ` `| to make it permanent - make it an env var
 `sudo python3 -m pip install awscli` | install awscli
+. | .
 `aws configure` | input configs - securing our keys as now they are stored in the aws cloud
 `aws s3` | to use s3
 `aws s3 ls` | tell s3 to list the contents (to know we have secured and inputted our keys correctly)
@@ -22,7 +26,7 @@ command | function
 `aws s3 cp <file_path> s3://<bucket_name>/` | copying file from ec2 to s3
 `aws s3 cp s3://<bucket_name>/<file_name> .` | copying file from s3 to ec2
 
-### Interaction with s3
+### AWS Command Line Interface (CLI) with s3
 command | function | example
 --- | --- | ---
 `aws s3 mb <s3_bucket>` | make a s3 bucket | `aws s3 mb s3://<bucket_name>`
@@ -38,3 +42,12 @@ command | function
 --- | --- 
 `--force` | force an action
 `-r` | recursive action, useful for handling directories
+
+### S3 policies (Web interface)
+- Object URL - for access
+- Object policies -> bucket -> object -> permission
+- Bucket policies -> bucket -> permission
+- We can customise the policies
+
+### Exercise
+- Create a custom policy
