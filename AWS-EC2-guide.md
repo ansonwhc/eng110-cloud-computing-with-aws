@@ -3,12 +3,12 @@ Cloud computing service provided by amazon
 - There are over 200 services offered
 - A way to move from local data center to cloud that can be accessed globally, instead of locally
 
-![AWS_pic](AWS.png)
+![AWS_pic](images/AWS.png)
 
 ## EC2
 Amazon Elastic Compute Cloud is a secure and resizable cloud compute service
 
-![EC2_pic](EC2.png)
+![EC2_pic](images/EC2.png)
 
 ## Two tier architecture
 - no more monolithic arch  
@@ -16,7 +16,7 @@ Amazon Elastic Compute Cloud is a secure and resizable cloud compute service
     - mongoDB - 1 tier - Database
     - App - 1 tier - Frontend  
 
-![2_tier_arch_pic](2_tier_arch.png)
+![2_tier_arch_pic](images/2_tier_arch.png)
 
 ### Useful tricks
 #### Make local file available on the cloud
@@ -43,9 +43,14 @@ Amazon Elastic Compute Cloud is a secure and resizable cloud compute service
 
     - `cd app/app/`
     - `npm start`
-    - Should see localhost/posts working 
+    - Should see localhost:3000/posts working 
 
     mongodb
+    - install 
     - sudo systemctl start mongod
     - sudo systemctl enable mongod
     - sudo systemctl restart mongod (if needed)
+
+## Two tier architecture dissected    
+
+
