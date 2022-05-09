@@ -58,3 +58,6 @@ command | function
   - `aws configure`
   - `python <path>/s3_setup.py`
   - S3 class within s3_setup.py have methods for CRUD
+    - initialise the S3 class
+    - methods such as create bucket, download and upload object will be available
+      ![](images/S3%20class.png)
