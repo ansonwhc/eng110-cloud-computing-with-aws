@@ -20,14 +20,14 @@ class S3:
     def upload_data(self, file_name='s3_pic.png', object_name=None):
         if object_name is None:
             object_name = file_name
-        self.s3.Object(self.bucket_name, object_name).put(Body=open(file_name, 'rb'))
+        up_response = self.s3_client.upload_file(file_name, self.bucket_name, object_name)
+        self.response_history.append(up_response)
 
     def retrieve_data(self, object_name='s3_pic.png', file_name=None):
         if file_name is None:
             file_name = object_name
-        self.s3.Object(self.bucket_name, object_name).put(Body=open(file_name, 'rb'))
-        up_response = self.s3_client.upload_file(file_name, self.bucket_name, object_name)
-        self.response_history.append(up_response)
+        down_response = self.s3_client.download_file(self.bucket_name, object_name, file_name)
+        self.response_history.append(down_response)
 
     def delete_data(self, object_name='s3_pic2.png'):
         del_f_response = self.s3_client.delete_object(Bucket=self.bucket_name, Key=object_name)
@@ -47,6 +47,14 @@ class S3:
 
     def manage_bucket_policy(self):
         pass
+
+
+if __name__ == "__main__":
+    s3 = S3()
+    s3.make_bucket()
+    s3.upload_data()
+    s3.retrieve_data()
+    s3.manage_read_access()
 
 
 # s3 = boto3.resource('s3')

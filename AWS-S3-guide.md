@@ -50,4 +50,11 @@ command | function
 - We can customise the policies
 
 ### Exercise
-- Create a custom policy
+- Create a script for s3 CRUD
+  - script stored in ec2_s3_ex
+  - scp file to ec2 instance
+  - `bash <path>/ex2_setup.sh`
+  - (potentially) `alias python=python3`
+  - `aws configure`
+  - `python <path>/s3_setup.py`
+  - S3 class within s3_setup.py have methods for CRUD
