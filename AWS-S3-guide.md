@@ -20,8 +20,21 @@ command | function
 `aws s3 ls` | tell s3 to list the contents (to know we have secured and inputted our keys correctly)
 `aws s3 mb s3://eng110-anson` | make a s3 bucket - name can only contain [^a-zA-Z0-9_]
 `aws s3 cp <file_path> s3://<bucket_name>/` | copying file from ec2 to s3
+`aws s3 cp s3://<bucket_name>/<file_name> .` | copying file from s3 to ec2
 
 ### Interaction with s3
+command | function | example
+--- | --- | ---
+`aws s3 mb <s3_bucket>` | make a s3 bucket | `aws s3 mb s3://<bucket_name>`
+`aws s3 ls <s3_bucket>` | list contents within the bucket | `aws s3 ls s3://<bucket_name>`
+`aws s3 cp <source> <destination>` | copy data from s3 to ec2 | `aws s3 cp s3://<bucket_name>/<file_name> .`
+`aws s3 mv <source> <destination>` | move data from s3 to ec2 | `aws s3 mv s3://<bucket_name>/<file_name> .`
+`aws s3 sync <source> <destination>` | sync ec2 directory with a s3 bucket | `aws s3 sync . s3://<bucket_name>/<path>`
+`aws s3 rb <s3_bucket>` | remove s3 bucket | `aws s3 rb s3://<bucket_name>`
+`aws s3 rm <file_path>` | remove a from from s3 bucket | `aws s3 rm s3://<bucket_name>/<file_name>`
+
+#### Useful options
 command | function
---- | ---
-`aws s3 cp s3://<bucket_name>/<file_name> .` | transfer data from s3 to ec2
+--- | --- 
+`--force` | force an action
+`-r` | recursive action, useful for handling directories
