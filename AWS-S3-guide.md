@@ -5,3 +5,23 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service that offe
 ## Our first use case  
 
 ![](images/s3.png)
+
+### S3 setup
+command | function
+--- | ---
+`sudo apt install python` | install python
+`sudo apt install python3-pip -y` | install python 3.x (specifically), if the previous installs python < 3.x
+`alias python=python3` | instruct the system to use python 3
+`python --version` | ensure we have python > 3.x
+` `| to make it permanent - make it an env var
+`sudo python3 -m pip install awscli` | install awscli
+`aws configure` | input configs - securing our keys as now they are stored in the aws cloud
+`aws s3` | to use s3
+`aws s3 ls` | tell s3 to list the contents (to know we have secured and inputted our keys correctly)
+`aws s3 mb s3://eng110-anson` | make a s3 bucket - name can only contain [^a-zA-Z0-9_]
+`aws s3 cp <file_path> s3://<bucket_name>/` | copying file from ec2 to s3
+
+### Interaction with s3
+command | function
+--- | ---
+`aws s3 cp s3://<bucket_name>/<file_name> .` | transfer data from s3 to ec2
