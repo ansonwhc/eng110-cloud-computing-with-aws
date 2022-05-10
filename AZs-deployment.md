@@ -1,9 +1,22 @@
 # Highly available and scalability multi Availability Zones deployment
 
-![](images/AZ%20autoscaling%20group.png)  
+![](images/AZ%20autoscaling%20group.png) 
+[Setup option 1 example here](#option-1)  
+[Glossary here](#glossary)
 
-## Option 1 (example)
 
+## Option 1
+### (example)
+<img src="https://user-images.githubusercontent.com/94448528/167620030-7b653ba0-d0ae-4915-9c0d-ed76069e7e5b.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620041-04bb0fec-0422-4af1-a078-211ee0396160.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620046-d09d2211-3d2b-4764-91ee-5c1047edebbd.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620050-56b584f4-dfba-423c-9ec5-b5951ba72082.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620054-bbf9119b-2d70-4bfc-88d4-28802eb71956.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620060-9ac174dd-c407-4b21-a57a-362c6fe54490.png" width="600">
+<i>(User data can be used for provisioning)</i>
+<img src="https://user-images.githubusercontent.com/94448528/167620067-eb9d3d0f-533f-46f1-bba3-0d71d232dfe0.png" width="600">
+<img src="https://user-images.githubusercontent.com/94448528/167620071-4234c7ed-a376-4348-a884-33690636c95c.png" width="600">
+<br><br>
 
 # Glossary
 ## Availability zones
