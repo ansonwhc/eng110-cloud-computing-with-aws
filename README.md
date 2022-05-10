@@ -1,5 +1,8 @@
 ## What is cloud computing?  
 On-demand availability of easily configurable computer system resources upon user requests that are accessible through the internet
+- AWS Elastic Cloud Compute guide: ![AWS-EC2-guide.md](AWS-EC2-guide.md)
+- AWS Simple Storage Service guide: ![AWS-S3-guide.md](AWS-S3-guide.md)
+- AZs Deployment: ![AZs-deployment.md](AZs-deployment.md)
 
 ## Benefits
 

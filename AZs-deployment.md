@@ -1,0 +1,45 @@
+# Highly available and scalability multi Availability Zones deployment
+
+![](images/AZ%20autoscaling%20group.png)  
+
+## Option 1 (example)
+
+
+# Glossary
+## Availability zones
+Availbility zones, AZs are isolated locations within data centre regions that public cloud services originate and operate from.
+<br><br>
+
+## High availability
+Using multi AZs, we can ensure service availability across different instances, so no longer have a single point of failure.
+<br><br>
+
+## High scalability
+The ability and functionality to easily adjust the number of instances that are available, up and running for the services.
+<br><br>
+
+## Load balancing
+Distribution of incoming traffic across multiple targets, such as EC2 instances, in one or more Availability Zones, so that no instance get overwhelmed. For AWS, Elastic Load Balancing is a service that does this automatically.
+<br><br>
+
+## Listener groups
+A listener is a process that checks for connection requests, using the protocol and port that we configure. The rules that we define for a listener determine how the load balancer routes request to the registered targets. Listener groups are groups of listeners checking for different requests.
+<br><br>
+
+## Auto Scaling Group
+Auto Scaling is the function of automatically adjusting the amount of computational resources based on the server load. An Auto Scaling group (ASG) contains a collection of cloud computing units/instances, for example Amazon EC2 instances, that are treated as a logical grouping for the purposes of automatic scaling and management. For AWS, Auto Scaling group also enables you to use Amazon EC2 Auto Scaling features such as health check replacements and scaling policies.
+<br><br>
+
+## ASG launch configuration 
+When we create an Auto Scaling group, we must specify the launch configuration, the necessary information to configure the cloud computing units/instances, such as Amazon EC2 instances, the Availability Zones and VPC subnets for the instances, the desired capacity, and the minimum and maximum capacity limits, etc.
+<br><br>
+
+## ASG launch template
+Launch templates are used as a pre-set launch configuration. they contain fixed parameters (AMI, instance type, security groups, and key pairs etc.) so that we do not need to define these parameters every time we launch new instances.
+
+For AWS, we can specify a launch template or a launch configuration to configure Amazon EC2 instances that are launched by our Auto Scaling group.
+<br><br>
+
+## Autoscaling policy 
+We specify one or more step adjustments in our Auto Scaling Group, such that it automatically scales the number of instances dynamically based on the scaling metrics and threshold values for the alarms that invoke the scaling process. 
+
