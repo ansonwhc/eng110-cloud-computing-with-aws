@@ -58,7 +58,7 @@ Classless Inter-Domain Routing (CIDR) is a method for allocating IP addresses an
 
 Classless Inter-Domain Routing blocks are groups of addresses that share the same prefix and contain the same number of bits. The combination of multiple connecting CIDR blocks into a larger whole, sharing a common network prefix, is what constitutes supernetting. 
 
-For example, for 217.10.138.128, each of the [217, 10, 138, 128] is a CIDR Block.
+For example, for 217.10.138.128, each of the [217, 10, 138, 128] is a CIDR Block.  
 <img src="https://cdn.ttgtmedia.com/rms/onlineImages/CIDR_mobile.jpg" width="400">  
 https://www.techtarget.com/searchnetworking/definition/CIDR#:~:text=CIDR%20blocks%20are%20groups%20of,the%20length%20of%20the%20prefix.  
 
