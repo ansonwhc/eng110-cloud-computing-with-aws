@@ -2,7 +2,7 @@
 On-demand availability of easily configurable computer system resources upon user requests that are accessible through the internet
 
 This repo contains guides to have high availability and scalbility deployment in AWS
-![main-pic](images/ASG_CloudWatch_and_app.png)
+![main-pic](images/ASG_CloudWatch_and_app_vpc)
 - AWS Elastic Cloud Compute guide: [AWS-EC2-guide.md](AWS-EC2-guide.md)
 - AWS Simple Storage Service guide: [AWS-S3-guide.md](AWS-S3-guide.md)
 - AZs Deployment guide: [AZs-deployment-guide.md](AZs-deployment-guide.md)
