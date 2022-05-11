@@ -1,7 +1,11 @@
 # AWS Virtual Private Cloud
 VPC is a private network that works as a flatform for us to launch AWS resources to. The functionalities resembles a traditional network that we would operate in our own data center.  
+![VPC-Arch](images/VPC-Arch.png)
+1. VPC setup guide [here](#vpc-setup-guide)
+2. Glossary [here](#glossary)  
 
-1. Glossary [here](#glossary)  
+## VPC Setup Guide
+
 
 ## Glossary
 
