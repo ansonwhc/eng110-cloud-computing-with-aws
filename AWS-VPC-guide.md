@@ -48,7 +48,9 @@ https://docs.aws.amazon.com/vpc/latest/userguide/route-table-options.html
 
 ### Subnet
 Subnet is a range of IP addresses in the VPC. We can launch AWS resources, such as EC2 instances, into a specified subnet. When we create a subnet, we specify the IPv4 CIDR block for the subnet. Each subnet must reside entirely within one AZ. By launch instances in separate AZs, we can protect our services from the failure of a single zone.  
-https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html
+https://docs.aws.amazon.com/vpc/latest/userguide/configure-subnets.html  
+
+Subnet builder here: https://tidalmigrations.com/subnet-builder/  
 
 
 ### CIDR Block
