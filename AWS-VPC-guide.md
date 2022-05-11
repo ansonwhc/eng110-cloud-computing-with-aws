@@ -5,7 +5,29 @@ VPC is a private network that works as a flatform for us to launch AWS resources
 2. Glossary [here](#glossary)  
 
 ## VPC Setup Guide
+<img src="https://user-images.githubusercontent.com/94448528/167835065-bcd95e8b-e410-4518-bf26-d923b94eeb9a.png" width="500">
 
+<img src="https://user-images.githubusercontent.com/94448528/167835148-c86f2eb2-5eca-4b26-8293-207c308e27f7.png" width="500">
+
+We now should attach the internet gateway to the VPC  
+<img src="https://user-images.githubusercontent.com/94448528/167835296-431f0fcb-f9ce-4d51-b2af-2753a3b44784.png" width="400">
+
+<img src="https://user-images.githubusercontent.com/94448528/167835388-57b39cd4-2368-4d23-ad9d-4aa1b422ffc5.png" width="500">
+
+We then create a subnet  
+<img src="https://user-images.githubusercontent.com/94448528/167835481-da080729-4605-4c52-837c-84b4e80c8021.png" width="500">
+
+<img src="(https://user-images.githubusercontent.com/94448528/167835500-6ddb0e78-30fc-4c3a-a562-96be9535165c.png" width="500">
+
+Now we set up the route table for routing the internet  
+<img src="https://user-images.githubusercontent.com/94448528/167835574-8d724d6a-2d2e-4668-9488-1c2381eef250.png" width="500">
+
+Connet the route table to the subnet target (internet gateway)  
+<img src="https://user-images.githubusercontent.com/94448528/167835695-daace693-b20d-495d-8558-950bc2729024.png" width="500">
+
+<img src="(https://user-images.githubusercontent.com/94448528/167835712-bcf318e7-7540-4bdc-bbab-92272db98e30.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167835725-7f33d1a4-1807-4809-aa55-4cec3db87835.png" width="500">
 
 ## Glossary
 
