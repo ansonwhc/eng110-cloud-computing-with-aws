@@ -23,6 +23,31 @@
 <br><br>
 
 ### Auto Scaling Group Setup Guide
+<img src="https://user-images.githubusercontent.com/94448528/167806001-c5ea86b1-f858-485d-a7a8-cd42697b3097.png" width="500">
+
+We use the launch template created with the guide [Here](#launch-template-guide)  
+<img src="https://user-images.githubusercontent.com/94448528/167806013-9ba9b89e-c46d-403c-b8de-5292c87f380a.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806019-54d43425-7ca2-4459-8cd4-7fc32b4ef481.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806033-6b4d60b5-3a4c-4808-b5b2-a95de07c9214.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806046-679ae7ca-fb33-4594-ba3a-56ef3bf83e6d.png" width="500">
+
+We require the default listening port 80 for our service  
+<img src="https://user-images.githubusercontent.com/94448528/167806054-f371184b-fe05-4ca6-b907-c367d977c76a.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806066-4e6e74e1-9266-4191-9195-c55951543895.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806074-2fc38e41-6e13-4874-a5c4-5d964c607a90.png" width="500">
+
+<img src="https://user-images.githubusercontent.com/94448528/167806093-0b6289f2-9b32-4af9-a382-d58004c344b2.png" width="500">
+
+Successful ASG setup  
+<img src="https://user-images.githubusercontent.com/94448528/167806097-577ccf35-2aaf-46e4-812b-75c7e233b095.png" width="500">
+
+Pre-set number of instances should berunning, 24/7, until further instructions  
+<img src="https://user-images.githubusercontent.com/94448528/167806107-40477f21-3ff4-4860-8910-e2f955e1fad9.png" width="500">
 
 
 ## Glossary
