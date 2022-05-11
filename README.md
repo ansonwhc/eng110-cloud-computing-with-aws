@@ -7,6 +7,7 @@ This repo contains guides to have high availability and scalbility deployment in
 - AWS Simple Storage Service guide: [AWS-S3-guide.md](AWS-S3-guide.md)
 - AZs Deployment guide: [AZs-deployment-guide.md](AZs-deployment-guide.md)
 - AWS CloudWatch guide: [AWS-CloudWatch-guide.md](AWS-CloudWatch-guide.md)  
+- AWS VPC guide: [AWS-VPC-guide.md](AWS-VPC-guide.md)
 
 ## Benefits
 
