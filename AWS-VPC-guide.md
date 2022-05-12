@@ -29,6 +29,10 @@ Connet the route table to the subnet target (internet gateway)
 
 <img src="https://user-images.githubusercontent.com/94448528/167835725-7f33d1a4-1807-4809-aa55-4cec3db87835.png" width="500">
 
+## Private Subnet
+<img src="https://user-images.githubusercontent.com/94448528/168027721-88eb6ed7-cc46-4299-bb3d-e46b265d2ef8.png">
+
+
 ## Glossary
 
 ### Internet Gateway
