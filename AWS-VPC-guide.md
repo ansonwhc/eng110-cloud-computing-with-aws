@@ -1,5 +1,7 @@
 # AWS Virtual Private Cloud
 VPC is a private network that works as a flatform for us to launch AWS resources to. The functionalities resembles a traditional network that we would operate in our own data center.  
+
+### Basic VPC atchitecture example:
 ![VPC-Arch](images/VPC-Arch.png)
 1. VPC setup guide [here](#vpc-setup-guide)
 2. Glossary [here](#glossary)  
@@ -30,7 +32,7 @@ Connet the route table to the subnet target (internet gateway)
 <img src="https://user-images.githubusercontent.com/94448528/167835725-7f33d1a4-1807-4809-aa55-4cec3db87835.png" width="500">
 
 ## Private Subnet
-![Screenshot 2022-05-12 093126](https://user-images.githubusercontent.com/94448528/168031550-3e598aff-9007-45a0-b3d7-712006466bc9.png)
+![](/images/private-public-subnet-arch.png)
 
 ## Glossary
 
